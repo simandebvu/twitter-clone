@@ -1,4 +1,4 @@
-# Project Name
+# Twitter Clone
 
 > One paragraph statement about the project.
 
