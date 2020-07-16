@@ -10,6 +10,13 @@ gem 'pg', '>= 0.18', '< 2.0'
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
 gem 'figaro', '~> 1.2'
+gem 'better_errors', '~> 2.7', '>= 2.7.1'
+gem 'guard', '~> 2.16', '>= 2.16.2'
+gem 'devise', '~> 4.7', '>= 4.7.2'
+gem 'bulma-rails', '~> 0.9.0'
+gem 'simple_form', '~> 5.0', '>= 5.0.2'
+gem 'gravatar_image_tag', '~> 1.2'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '>= 6'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
@@ -36,6 +43,8 @@ end
 
 group :development do
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
+  gem 'guard-livereload', '~> 2.5', '>= 2.5.2', require: false
+  gem 'guard-bundler'
   gem 'web-console', '>= 3.3.0'
 end
 
