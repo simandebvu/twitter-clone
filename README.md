@@ -1,5 +1,7 @@
 # Twitter Clone
 
+![Push Container to Heroku](https://github.com/simandebvu/twitter-clone/workflows/Push%20Container%20to%20Heroku/badge.svg?branch=development)
+
 <br />
 <p align="center">
   <a href="https://github.com/simandebvu/twitter-clone">
@@ -33,7 +35,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://zim-twitter-clone.herokuapp.com/)
 
 
 <!-- INSTALLATION -->
