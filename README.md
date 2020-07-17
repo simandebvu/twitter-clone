@@ -1,16 +1,16 @@
 # Twitter Clone
 
-> One paragraph statement about the project.
+> This project consists of building a Twitter Clone. A light weight version of Twitter.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./app-screenshot.gif)
 
 Additional description about the project and its features.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- Ruby On Rails
+- VSCode
+- Postgresql
 
 ## Live Demo
 
@@ -41,17 +41,11 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author1**
+👤 **Shingirayi Mandebvu**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@simandebvu](https://github.com/simandebvu)
+- Twitter: [@simandebvu](https://twitter.com/simandebvu)
+- Linkedin: [linkedin](https://linkedin.com/simandebvu)
 
 ## 🤝 Contributing
 
@@ -65,9 +59,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Microverse
+- Andy Leverenz
+
 
 ## 📝 License
 
