@@ -1,57 +1,76 @@
-# Project Name
+# Twitter Clone
 
-> One paragraph statement about the project.
+<br />
+<p align="center">
+  <a href="https://github.com/simandebvu/twitter-clone">
+    <img src="rails-image.jpg" alt="Logo" width="80" height="80">
+  </a>
 
-![screenshot](./app_screenshot.png)
+  <h3 align="center">Twitter Clone</h3>
 
-Additional description about the project and its features.
+  <p align="center">
+    This project consists of building a light weight version of Twitter.
+    <br />
+    <a href="https://github.com/simandebvu/twitter-clone"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/simandebvu/twitter-clone/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/simandebvu/twitter-clone/issues">Request Feature</a>
+  </p>
+</p>
+
+![screenshot](./app-screenshot.gif)
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- Ruby On Rails
+- VSCode
+- Rubocop 
+- Sticker
+- Github Actions
+- Postgresql
 
 ## Live Demo
 
 [Live Demo Link](https://livedemo.com)
 
 
-## Getting Started
+<!-- INSTALLATION -->
+## Usage
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+To have this app on your pc, you need to:
+* have Ruby & Ruby on Rails installed in your computer
+* [download](https://github.com/simandebvu/twitter-clone/archive/development.zip) or clone this repo:
+  - Clone with SSH:
+  ```
+    git@github.com:simandebvu/twitter-clone.git
+  ```
+  - Clone with HTTPS
+  ```
+    https://github.com/simandebvu/twitter-clone.git
+  ```
+* and open the terminal inside the repo and run the bundler
+  - ```$ bundler install --without production```
+* then, run rails db:migrate. This creates the database with the corresponding tables, columns and associations
+  - ```$ rails db:migrate```
+* then, run rails s. This will start the server at localhost `http://127.0.0.1:3000/`
+  - ```$ rails s```
+* and finally, you can test it in the console by running
+  - ```$ rails console --sandbox```
+  
+<!-- AUTOMATED TEST -->
+### Automated Test
 
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+> There are no Automated Test for this project yet
 
 ## Authors
 
-👤 **Author1**
+👤 **Shingirayi Mandebvu**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@simandebvu](https://github.com/simandebvu)
+- Twitter: [@simandebvu](https://twitter.com/simandebvu)
+- Linkedin: [linkedin](https://linkedin.com/in/simandebvu)
 
 ## 🤝 Contributing
 
@@ -65,9 +84,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Microverse
+- Andy Leverenz
+
 
 ## 📝 License
 
